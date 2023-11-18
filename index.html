@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <title>FOR UNIVERSITY</title>
+</head>
+
+<body>
+  <!-- Start Header -->
+  <section class="header" id="home">
+    <nav>
+      <a href="index.html "><img src="imgs/logo cru.png" alt=""></a>
+      <div class="nav-links" id="navlinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="course.html">Course</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="text-box">
+      <h1>Violation Of Privacy</h1>
+      <p>เว็บไซต์นี้มีไว้เพื่อการนำเสนอให้กับ คุณครูพงศธร เท่านั้น !!! <br />
+      </p>
+      <a href="about.html" class="btn-1">เรียนรู้เพิ่มเติ่มเกี่ยวกับเรา</a>
+    </div>
+  </section>
+  <!-- End Header -->
+ 
+  <!-- Start Call to Action -->
+  <section class="cta">
+    <h1>
+      Learning For <span>Protect</span> <br /> Violation
+    </h1>
+    <a href="contact.html" class="btn-1">Contact Us</a>
+  </section>
+  <!-- End Call to Action -->
+  <!-- Start Footer -->
+  <footer>
+    <h4>About Us</h4>
+    <p>เพื่อประกอบการเรียนเท่านั้น</p>
+    <div class="icons">
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-linkedin-in"></i>
+    </div>
+    <p>Made <i class="fas fa-heart"></i> by Phakkharawat</p>
+  </footer>
+  <!-- End Footer -->
+  <div class="up">
+    <a href="#home">
+      <i class="fas fa-angle-up"></i>
+    </a>
+  </div>
+
+  <!-- Javascript -->
+  <script>
+    var navlinks = document.getElementById("navlinks");
+    function showMenu() {
+      navlinks.style.right = "0"
+    }
+    function hideMenu() {
+      navlinks.style.right = "-200px"
+    }
+  </script>
+
+
+</body>
+
+</html>
